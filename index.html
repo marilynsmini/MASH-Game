@@ -17,32 +17,33 @@
     <p class="description">Fill in the blanks and your future will be foretold.</p>
     <form action="" method="post" id="mash">
       <div id="answers" class="hide">
-        <p>Your home is in <span id="answer_1"></span> where you live <span id="answer_2"></span> in a <span id="home"></span> and you have <span id="answer_3"></span>.
-      </div>
+        <p>Your home is in <span id="answer_1"></span> where you live <span id="answer_2"></span> in a <span id="home"></span> and you have <span id="answer_3">children.</span>
+     </div>
       <div class="bucket">
         <div class="choice-bucket">
           <h4 class="highlight">Where will you live?</h4>
-          <input name="answer_1[]" type="text">
-          <input name="answer_1[]" type="text">
-          <input name="answer_1[]" type="text">
-          <input name="answer_1[]" type="text">
+          <label for="formAnswer1">Enter 4 options</label><input name="answer_1[]" id="formAnswer1" type="text">
+          <input name="answer_1[]" id="formAnswer2" type="text">
+          <input name="answer_1[]" id="formAnswer3" type="text">
+          <input name="answer_1[]" id="formAnswer4" type="text">
         </div>
         <div class="choice-bucket">
           <h4 class="highlight">Will you live by yourself or with someone?</h4>
-          <input name="answer_2[]" type="text">
+          <label for="formAnswer2">Enter 2 options</label><input name="answer_2[]" type="text">
           <input name="answer_2[]" type="text">
         </div>
         <div class="choice-bucket">
           <h4 class="highlight">How many children will you have?</h4>
-          <input name="answer_3[]" type="text">
+          <label for="formAnswer3">Enter 4 options</label><input name="answer_3[]" type="text">
           <input name="answer_3[]" type="text">
           <input name="answer_3[]" type="text">
           <input name="answer_3[]" type="text">
         </div>
-      </div>
+      
       <button type="submit" class="button-submit">Tell my fortune</button>
+		  
     </form>  
-    <script src="script.js"</script>
+	 <script src="script.js"</script>
   </body>
   <!-- BODY SECTION ENDS -->
   <!-- 2021 New Course -->
